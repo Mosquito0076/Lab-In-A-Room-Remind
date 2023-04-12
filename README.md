@@ -48,8 +48,8 @@
 ```js
 // web/src/test/Test.js
 
-		  // 내부 저장소 위치의 이미지를 보여줌
-		  <img src={imgUrl} style={{ width: "300px" }} alt="img" />
+	  // 내부 저장소 위치의 이미지를 보여줌
+	  <img src={imgUrl} style={{ width: "300px" }} alt="img" />
           
           // 파일에 대한 input을 받음
           <input type="file" accept="image/*" onChange={printFile}></input>
@@ -372,7 +372,7 @@ public class PermissionsRationaleDialog : MonoBehaviour
 
 <br>
 
-### 3)InActive Object의 컴포넌트에 접근할 수 없는 문제
+### 3) InActive Object의 컴포넌트에 접근할 수 없는 문제
 
 사진 및 보고서 내용 전송을 위해서는, **보고서 Object**의 컴포넌트 중 하나인 **ReportSettingScript**에 저장된 정보에 접근할 필요가 있었습니다.
 
